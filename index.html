@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Keyboard Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="calculator">
+
+        <input class="border-less"type="text" id="display" inputmode="decimal" pattern="[0-9\+\-\*\/\(\)\s]*" placeholder="0">
+
+        <div class="buttons border-less-inner">
+            <button class="op" data-op="+">+</button>
+            <button class="op" data-op="-">−</button>
+            <button class="op" data-op="*">×</button> <!-- insert * internally -->
+            <button class="op" data-op="/">÷</button>
+            <button class="op" data-op="(">(</button>
+            <button class="op" data-op=")">)</button>
+        </div>
+
+
+        <div class="controls border-less-inner">
+            <button id="equals">=</button>
+            <button id="clear">C</button>
+            <button id="undo">Undo</button>
+            <button id="redo">Redo</button>
+        </div>
+
+        <ul id="historyList"></ul>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
