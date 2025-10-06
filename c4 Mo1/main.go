@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	c4Math "github.com/adminpyramid/c4 Mo1"
+	c4Math "github.com/Adminpyramid/c4-Math/c4Trial"
 )
 
 func main() {
